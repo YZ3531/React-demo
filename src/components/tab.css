@@ -1,0 +1,33 @@
+/* .active {
+  color: red;
+} */
+
+.tab {
+    width: 300px;
+    background: #eee;
+  }
+  
+  .tab ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .tab ul li {
+    flex: 1;
+  }
+  .tab ul li.active {
+    background: lightblue;
+  }
+  
+  .tab div {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: lightblue;
+    display: none;
+  }
+  .tab div.active {
+    display: block;
+  }

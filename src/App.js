@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Test from './components/test'
+// import MyTab from './components/tab'
+// import Person from './components/child'
+// import Form from './components/form'
+import MyBook from './components/Mybook'
+
+// let listData = [{
+//   ename: 'apple',
+//   cname: '苹果'
+// }, {
+//   ename: 'orange',
+//   cname: '橘子'
+// }, {
+//   ename: 'lemon',
+//   cname: '柠檬'
+// }]
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* hello world! */}
+      {/* <Test></Test> */}
+      {/* <MyTab data={listData}></MyTab> */}
+      {/* <Person></Person> */}
+      {/* <Form></Form> */}
+      <MyBook></MyBook>
     </div>
   );
 }
