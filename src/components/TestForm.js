@@ -1,6 +1,6 @@
 import React from 'react'
 /*
-    表单详解
+    表单详解 : 受控组件
 */
 class TestForm extends React.Component {
     state = {
@@ -42,7 +42,7 @@ class TestForm extends React.Component {
             if(index!==-1){
                 favour.splice(index,1)
             }
-        } else {
+        } else {                                                                                                                
             // 未被选中,添加到数组即可
             favour.push(value)
         }
