@@ -4,7 +4,8 @@ import './App.css';
 // import MyTab from './components/tab'
 // import Person from './components/child'
 // import Form from './components/form'
-import MyBook from './components/Mybook'
+// import MyBook from './components/Mybook'
+import TestForm from './components/TestForm'
 
 // let listData = [{
 //   ename: 'apple',
@@ -26,7 +27,8 @@ function App() {
       {/* <MyTab data={listData}></MyTab> */}
       {/* <Person></Person> */}
       {/* <Form></Form> */}
-      <MyBook></MyBook>
+      {/* <MyBook></MyBook> */}
+      <TestForm></TestForm>
     </div>
   );
 }
